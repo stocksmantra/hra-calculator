@@ -71,17 +71,20 @@
 <body>
     <h1>HRA Calculator</h1>
     <form id="hra-form">
-        <label for="basic-salary">Basic Salary (with Dearness Allowance):</label>
-        <input type="number" id="basic-salary" required><br>
+        <label for="basic-salary">Basic Salary:</label>
+        <input type="number" id="basic-salary" required>
+
+        <label for="dearness-allowance">Dearness Allowance:</label>
+        <input type="number" id="dearness-allowance" required>
 
         <label for="hra-received">HRA Received:</label>
-        <input type="number" id="hra-received" required><br>
+        <input type="number" id="hra-received" required>
 
         <label for="rent-paid">Rent Paid:</label>
-        <input type="number" id="rent-paid" required><br>
+        <input type="number" id="rent-paid" required>
 
-        <label for="metro-city">Metro City:</label>
-        <input type="checkbox" id="metro-city"><br>
+        <label for="metro-city">Metro City: <input type="checkbox" id="metro-city"></label>
+        <!-- <input type="checkbox" id="metro-city"> -->
 
         <button type="submit">Calculate HRA Exemption</button>
         <div id="result"></div>
